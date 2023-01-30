@@ -10,20 +10,51 @@
   </head>
   <body>
     <div id="contactOverlay" onclick="closeContact()">
-      <div id="contactInfo">
+      <div id="contactInfo" onClick="stop(event)">
         <h3 style="display: contents">Mohammad Movahedinia</h3>
         <hr />
         <h3>Contact Info</h3>
-        Gmail Phone
+        <h4>Gmail</h4>
+        <p>mo.movahedinia@gmail.com</p>
+        <hr />
+        <h4>Phone Number</h4>
+        <p>09115913969</p>
       </div>
     </div>
+    <div id="skillsOverlay" onclick="closeContact()">
+      <div id="contactInfo" onclick="stop(event)">
+        <h3 style="display: contents">Skills</h3>
+        <hr />
+        <h4>ReactJS</h4>
+        <hr />
+        <h4>HTML/CSS</h4>
+        <hr />
+        <h4>JavaScript</h4>
+        <hr />
+        <h4>Git</h4>
+        <hr />
+        <h4>Redux</h4>
+        <hr />
+        <h4>RESTful API</h4>
+        <hr />
+        <h4>Bootstrap</h4>
+        <hr />
+        <h4>TypeScript</h4>
+        <hr />
+        <h4>Cypress</h4>
+        <hr />
+        <h4>Java</h4>
+        <hr />
+        <h4>C/C++</h4>
+        <hr />
+      </div></div>
     <div id="headerContainer" class="parts">
       <img src="./stuffs/Ek0QSuNWAAICxpX (1).jpg" alt="header" id="header" />
       <img
         src="./stuffs/good-nature-homepage-hero_2-scaled.jpg"
         alt="Avatar"
         id="Avatar"
-      />
+        />
       <div id="headerText" style="padding-top: 25px">
         <h1>Mohammad Movahedinia</h1>
         <p>React Developer | Graduated in CE at Shahid Beheshti university</p>
@@ -81,19 +112,7 @@
       <hr />
       <h4>Git</h4>
       <hr />
-      <h4>Redux</h4>
-      <hr />
-      <h4>RESTful API</h4>
-      <hr />
-      <h4>Bootstrap</h4>
-      <hr />
-      <h4>TypeScript</h4>
-      <hr />
-      <h4>Cypress</h4>
-      <hr />
-      <h4>Java</h4>
-      <hr />
-      <h4>C/C++</h4>
+      <div onclick="moreSkills()" style="text-align: center; cursor: pointer;">More Skills -></div>
     </div>
     <div class="parts">
       <h3>Volunteering</h3>
